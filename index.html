@@ -36,21 +36,11 @@
 
     <nav>
         <div id="menu-principal">
-            <div id="Home">
-                <a href="index.html">Home</a>
-            </div>
-            <div id="Sobre">
-                <a href="sobre.html">Sobre</a>
-            </div>
-            <div id="Especialidades">
-                <a href="especialidades.html">Especialidades</a>
-            </div>
-            <div id="Blog">
-                <a href="blog.html">Blog</a>
-            </div>
-            <div id="contato">
-                <a href="contato.html">Contato</a>
-            </div>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="especialidades.html">Especialidades</a>
+            <a href="blog.html">Blog</a>
+            <a href="contato.html">Contato</a>
         </div>
     </nav>
 
@@ -82,48 +72,95 @@
 
     <div id="why">
         <div id="subtitulo2">
+            <p>Por que fazer terapia online?</p>
+            <p>A terapia online pode proporcionar o apoio psicológico que você precisa para enfrentamento das situações de: </p>
 
         </div>
         <div id="subtitulo3">
 
         </div>
-        <div id="box1"></div>
-        <div id="box2"></div>
-        <div id="box3"></div>
-        <div id="box4"></div>
-        <div id="box5"></div>
-        <div id="box6"></div>
+        <div class="box">
+            <p class="texto">Texto 1</p>
+        </div>
+        <div class="box">
+            <p class="texto">Texto 2</p>
+        </div>
+        <div class="box">
+            <p class="texto">Texto 3</p>
+        </div>
+        <div class="box">
+            <p class="texto">Texto4</p>
+        </div>
+        <div class="box">
+            <p class="texto">Texto 5</p>
+        </div>
+        <div class="box">
+            <p class="texto">Texto 6</p>
+        </div>
+    </div>
+
+    <div id="subtitulo3">
+        <p>Receba um apoio adaptado às suas necessidades, com os mesmos benefícios da terapia presencial, mais a flexibilidade de poder fazer
+            as sessões de onde você estiver, desde que tenha uma conexão estável à internet e um local calmo para se sentir à vontade.
+        </p>
+        <p>Vamos juntos percorrer o caminho da busca pelo bem-estar emocional?</p>
+
     </div>
 
     <div id="tipos_atendimentos">
         <div id="subtitulo4">
-
+            <h2>Atendimentos</h2>
         </div>
         <div id="tagline1">
-
+            <p>TERAPIA ONLINE INDIVIDUAL</p>
+            <img src="img/DAIANECAMARGO_FOTO.jpg" alt="foto1">
         </div>
         <div id="tagline2">
-
+            <p>TERAPIA ONLINE CASAL</p>
+            <img src="img/DAIANECAMARGO_FOTO.jpg" alt="foto2">
         </div>
     </div>
 
     <div id="diferenciais">
         <div id="subtitulo5">
-
+            <p>Características que fazem diferença</p>
         </div>
-        <div id="box_dif1"></div>
-        <div id="box_dif2"></div>
-        <div id="box_dif3"></div>
+        <div class="box_dif">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
+        </div>
+        <div class="box_dif">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
+        <div class="box_dif">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
     </div>
 
     <div id="howtoagendar">
         <div id="subtitulo6">
-
+            <p>Agende sua consulta em 4 passos</p>
         </div>
-        <div id="box_htagendar1"></div>
-        <div id="box_htagendar1"></div>
-        <div id="box_htagendar1"></div>
-        <div id="box_htagendar1"></div>
+        <div class="box_htagendar">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 3</p>
+        </div>
+        <div class="box_htagendar">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 3</p>
+        </div>
+        <div class="box_htagendar">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 3</p>
+        </div>
+        <div class="box_htagendar">
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 2</p>
+            <p class="texto">Texto 3</p>
+        </div>
 
         <div id="buton1"></div>
     </div>
@@ -132,7 +169,14 @@
         <div id="subtitulo7">
 
         </div>
-        <div id="faq1"></div>
+        <div class="minha-caixa">
+            <p class="texto">Texto 1</p>
+            <div class="seta" onclick="toggleTexto('texto-oculto-1')">►</div>
+        </div>
+          </div>
+          <div class="texto-oculto" id="texto-oculto-1">
+            <p>Texto adicional 1...</p>
+          </div>
         <div id="faq2"></div>
         <div id="faq3"></div>
         <div id="faq4"></div>
@@ -142,11 +186,27 @@
 
     </div>
 
+    <script>
+        function toggleTexto(id) {
+          var elemento = document.getElementById(id);
+          if (elemento.style.display === "none") {
+            elemento.style.display = "block";
+          } else {
+            elemento.style.display = "none";
+          }
+        }
+      </script>
+
     <div id="duvidas">
         <h4></h4>
         <p id="duvidas"></p>
+        <p>Não hesite em me contatar se tiver alguma dúvida. Estou aqui para te ajudar!</p>
         <div id="button2"></div>
-       <div id="lateral_images"></div>
+        <div id="lateral_image">
+            <img src="img/DAIANECAMARGO_LOGO_BRANCO.jpg" alt="Pessoa com telefone">
+        </div>
+        <h3>"Sua saúde mental é minha prioridade.”</h3>
+        <p>Psicóloga Andrezza Gomes Peretti - CRP 06/121541</p>
     </div>
 
     <div id="whatsapp">
