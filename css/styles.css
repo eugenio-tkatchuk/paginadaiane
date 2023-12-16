@@ -5,69 +5,81 @@
     font-family: Ubuntu;
 }
 
-#container-top{
+header{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 1rem;
     margin-left: -5.5rem;
-
-}
-
-h1{
-
-    font-size: 20px;
-    font-weight:400;
-}
-
-h2{
-
-    font-size: 20px;
-    font-weight:400;
-}
-
-#menu_principal{
-    display: flex;
-    justify-content: space-around;
-
-}
-
-#imagem_sobre{
-    width: 1rem;
-    height: 50px;
-    border: 8px solid black
 }
 
 #brand img{
-    height: 100px;
-    margin-right: -8rem;
-    }
+    height: 5rem;
+    margin-top: 2px;
+    margin-left: -1rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
 
 #titulo{
     margin-top: 45px;
     font-size: 10px;
 }
 
-#crp{
-    margin-top: 45px;
-    font-size: 20px;
-    font-weight:400;
+.icones img {
+    height: 2rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
-
 
 nav{
     display: flex;
-    background-color: darkcyan;
     height: 30px;
-    font-size: 25px;
+    font-size: 30px;
+    font-style: normal;
     font-weight: bold;
-    justify-content:space-between;
+    justify-content:flex-start;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
     
 }
 
-sobre{
+.container {
+    width: 100%;
+    height: 100%;
+}
 
+#left_sobre{
+    width: 50%;
+    height: 50%;
+}
+
+#left_sobre img {
+
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc
+}
+
+#right_sobre {
+    width: 50%;
+    height: 50%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p{
+    font-size: 10px;
+    text-align: justify;
+}
+
+.d-flex {
     display: flex;
-    
 }
 
 .box {
