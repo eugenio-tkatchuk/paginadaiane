@@ -5,7 +5,6 @@
     font-family: Ubuntu;
 }
 
-
 #line{
     display: flex;
     justify-content: flex-start;
@@ -22,12 +21,18 @@
 }
 
 #fone{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: white;
-    margin-right: 600px;
-}
+    margin-right: 200px;
+}    
 
+#principal{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-right: 200px;
+}
 #header {
     display: flex;
     justify-content: flex-start;
@@ -62,7 +67,7 @@
     font-weight: 400;
 }
 
- .icones img {
+.icones img {
     display: flex;
     justify-content: space-around;
     margin-top:45px;
@@ -76,114 +81,114 @@
     text-align: center;
 }
 
-.container {
+.container-sobre {
+    display:flex;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     margin-bottom: 1rem;
-}
+    }
 
-#left_sobre{
+#lado-esquerdo-sobre{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     justify-content: center;
     text-wrap: wrap;
     width: 50%;
-    height: 100vh;
-    
-}
+    height: 140vh;
+    }
 
-#left_sobre img {
-    margin-top: 1rem;
-    margin-left: 2.5rem;
+#lado-esquerdo-sobre img {
+    margin:5%;
     height: 90%;
-    border: #333 solid 2px;
+    border: #333 solid 1px;
 }
 
-#right_sobre {
+#lado-direito-sobre {
     width: 50%;
-    height: 100vh;
-    margin-left: 1rem;
+    height: 140vh;
+    padding-top: 55px;
+    line-height: 30px;
     text-wrap: wrap;
-    
 }
 
-h2 {
+#h2-sobre {
     width: 100%;
     font-size: 30px;
     text-align: center;
     margin-bottom: 2rem;
-    
-    
 }
 
-h3 {
+#h3-sobre {
     width: 100%;
     font-size: 45px;
     margin-bottom: 2rem;
     text-align: center;
 }
 
-p{
+#p-sobre{
     width: 90%;
     font-size: 20px;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    padding-left: 90px;
+    padding-right: 20px;
     text-align: justify;
     margin-bottom: 2rem;
-      
 }
 
-.d-flex {
-    display: flex;
-}
-
-section {
+.conteiner-why{
     
-    background-color: aquamarine;
+    margin-left: 10%;
+    align-items: center;
+    width: 80%;
+    
 }
 
 #porque{
     font-size: 40px;
     font-weight: 1000;
-    padding-bottom: 50px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
 #texto-porque{
-    font-size: 20px;
+    font-size: 22.5px;
     font-weight: 500;
-    padding-bottom: 50px;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 .box {
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: #fff; /* Cor de fundo branca */
     border-radius: 10px; /* Borda arredondada */
-    padding: 20px; /* Espaçamento interno */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin: 10px; /* Espaçamento externo entre as caixas */
     float: left; /* Alinhamento à esquerda */
     width: calc(33.333% - 20px); /* Largura de 1/3 com ajuste para o espaçamento interno */
+    height: 60px;
     box-sizing: border-box; /* Garante que a largura inclui a borda e o preenchimento */
 }
 
-  /* Estilo para o texto dentro da caixa */
+/* Estilo para o texto dentro da caixa */
 .texto-box {
-        font-size: 20px;
-        font-weight: 500;
-        text-align: center;
-        color: #333; /* Cor do texto */
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+    color: #333; /* Cor do texto */
+    margin-bottom: 20rem;
 }
 
 #texto_bottom {
-    padding-top: 40px;
-    font-size: 15px;
+    margin-top: 220px;
+    font-size: 20px;
     text-align: center;
+    margin-bottom: 3rem;
 }   
 
 #texto_bottom_2 {
-    padding-top: 40px;
+        
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -195,65 +200,143 @@ section {
     padding-bottom: 10px;
 }
 
-.container2 {
-    width: 100%;
-    height: 100vh;
-}
+#titulo1{
 
-.e-flex {
-    display: flex;
-}
-
-#top {
-    width: 100%;
-    height: 20vh;
-    margin-bottom: 20px;
-}
-
-#atendimentos {
-    font-size: 80px;
-    font-weight: 1000;
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+
 }
 
-#left_atendimento {
-    width: 25%;
-    height: 80vh;
+.conteiner-atendimentos{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: bisque;
+    width: 100%;
 }
 
-#right_atendimento {
-    width: 25%;
-    height: 80vh;
-}
+
 
 .upper {
     font-size:25px;
     font-weight: bold;
+    justify-content: center;
     text-align: center;
     text-decoration-line: underline;
 }
 
+#left_atendimento {
+    flex:1;
+    width: 40%;
+    height: 80vh;
+    background-color: blue;
+    
+    }
+
 #left_atendimento img{
-    width: 50%;
-    height: 100%;
-    border: 4px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    width: 40%;
+    height: 40vh;
+    
+}
+
+
+#right_atendimento {
+    flex:1;
+    width: 40%;
+    height: 80vh;
+   
+    
 }
 
 #right_atendimento img {
-    width: 50%;
-    height: 100%;
-    border: 4px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    width: 40%;
+    height: 40vh;
+    border: 2px solid black;
 }
 
-.texto-dif {
+#texto_atendimento_left {
     font-size: 20px;
-    font-weight: 1000;
     text-align: justify;
 }
 
-.texto-dif_low {
-    font-size: 10px;
+#texto_atendimento_right {
+    font-size: 20px;
     text-align: justify;
+}
+
+#h3-diferenciais{
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.conteiner-diferenciais{
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+    
+    width: 100%;
+}
+
+
+.box-diferenciais {
+    background-color: #fff; /* Cor de fundo branca */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 10px; /* Espaçamento externo entre as caixas */
+    float: left; /* Alinhamento à esquerda */
+    width: calc(33.333% - 20px); /* Largura de 1/3 com ajuste para o espaçamento interno */
+
+}
+
+#secao-diferenciais{
+
+    display: flex;
+
+}
+
+.box-diferenciais img{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 50px;
+}
+
+.texto-diferenciais-superior {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.texto-diferenciais-inferior {
+    padding-top: 10px;
+    font-size: 15x;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+#conteiner-comoagendar{
+
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: bisque;
+    width: 100%;
+
 }
 
 .box_htagendar {
@@ -267,23 +350,16 @@ section {
     box-sizing: border-box; /* Garante que a largura inclui a borda e o preenchimento */
 }
 
-.box_dif {
-    background-color: #fff; /* Cor de fundo branca */
-    border-radius: 10px; /* Borda arredondada */
-    padding: 20px; /* Espaçamento interno */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    margin: 10px; /* Espaçamento externo entre as caixas */
-    float: left; /* Alinhamento à esquerda */
-    width: calc(33.333% - 20px); /* Largura de 1/3 com ajuste para o espaçamento interno */
-    box-sizing: border-box; /* Garante que a largura inclui a borda e o preenchimento */
+.box_htagendar img{
+    
+    width: 55px;
+    height: 55px;
+    
 }
 
 
-footer{ 
 
 
-
-}
 
 
 #lateral_image img {
